@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff5f0;
+}
+
+.taj-img {
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.taj-img {
+  box-shadow: 0 8px 20px rgba(0, 0, 0);
+}
+.taj-img:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+
+.taj-img {
+  width: 900px;
+  transition: transform 0.6s ease;
+}
+
+.taj-img:hover {
+  transform: rotateY(180deg);
+}
+
+.content {
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #e00b0b;
+}
+
+p {
+  line-height: 1.7;
+  color: #444;
+}
+
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background: #101be9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
